@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 15868c4d44f84a345816e71a9bf33d40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5552741197768174274
+    second: Static1
+  - first:
+      213: -9214095291561342911
+    second: Static2
+  - first:
+      213: -1258926377126326980
+    second: Static3
+  - first:
+      213: 6855850153764653160
+    second: Static4
+  - first:
+      213: 4258460660027863484
+    second: Static5
+  - first:
+      213: -3583740418416337946
+    second: Static sheet_5
+  - first:
+      213: -301498418235657462
+    second: Static sheet_6
+  - first:
+      213: 4994806336730622323
+    second: Static sheet_7
+  - first:
+      213: -7473318501921725915
+    second: Static sheet_8
+  - first:
+      213: 8199980291537801572
+    second: Static sheet_9
+  - first:
+      213: -3213131460734604358
+    second: Static sheet_10
+  - first:
+      213: 6683099057046613850
+    second: Static sheet_11
+  - first:
+      213: -5034640516432737744
+    second: Static sheet_12
+  - first:
+      213: 6618792008559644856
+    second: Static sheet_13
+  - first:
+      213: -540144686647703658
+    second: Static sheet_14
+  - first:
+      213: 2655012587065358357
+    second: Static sheet_15
+  - first:
+      213: -6323614777638170672
+    second: Static sheet_16
+  - first:
+      213: 2956660057085465748
+    second: Static sheet_17
+  - first:
+      213: 2883349930803398082
+    second: Static sheet_18
+  - first:
+      213: -4113736052748295633
+    second: Static sheet_19
+  - first:
+      213: 2461158310864683548
+    second: Static sheet_20
+  - first:
+      213: 3703332396167574784
+    second: Static sheet_21
+  - first:
+      213: 6211293867973424431
+    second: Static sheet_22
+  - first:
+      213: -793475729316917043
+    second: Static sheet_23
+  - first:
+      213: -5175305299277375711
+    second: Static sheet_24
+  - first:
+      213: -6981324242613956473
+    second: Static sheet_25
+  - first:
+      213: -1521392141730211381
+    second: Static sheet_26
+  - first:
+      213: -4041583429064723087
+    second: Static sheet_27
+  - first:
+      213: -3281174521513944234
+    second: Static sheet_28
+  - first:
+      213: 3659371892494122734
+    second: Static sheet_29
+  - first:
+      213: -2720721030597227368
+    second: Static sheet_30
+  - first:
+      213: -581253916900128577
+    second: Static sheet_31
+  - first:
+      213: -8142615229825131259
+    second: Static sheet_32
+  - first:
+      213: -6629130989990712002
+    second: Static sheet_33
+  - first:
+      213: 5430061501262098353
+    second: Static sheet_34
+  - first:
+      213: -7730082451524125942
+    second: Static sheet_35
+  - first:
+      213: -8747335829825172058
+    second: Static sheet_36
+  - first:
+      213: 2447549851539845856
+    second: Static sheet_37
+  - first:
+      213: -6330369081638655760
+    second: Static sheet_38
+  - first:
+      213: -7989409539686123344
+    second: Static sheet_39
+  - first:
+      213: 2169359037010043129
+    second: Static sheet_40
+  - first:
+      213: 6894246528772319391
+    second: Static sheet_41
+  - first:
+      213: -5531533294257054056
+    second: Static sheet_42
+  - first:
+      213: 5879435005977298845
+    second: Static sheet_43
+  - first:
+      213: 5000993691701655004
+    second: Static sheet_44
+  - first:
+      213: 8913910754603705797
+    second: Static sheet_45
+  - first:
+      213: 2266023639481137729
+    second: Static sheet_46
+  - first:
+      213: -1903407145326747858
+    second: Static sheet_47
+  - first:
+      213: -5350220225700849081
+    second: Static sheet_48
+  - first:
+      213: 3630450009409229005
+    second: Static sheet_49
+  - first:
+      213: -8033471509796170756
+    second: Static sheet_50
+  - first:
+      213: -138263592014245808
+    second: Static sheet_51
+  - first:
+      213: 316798688692616058
+    second: Static sheet_52
+  - first:
+      213: 6202751530522041513
+    second: Static sheet_53
+  - first:
+      213: 4950793080324153055
+    second: Static sheet_54
+  - first:
+      213: 4630114786484934134
+    second: Static sheet_55
+  - first:
+      213: 6459688800920436717
+    second: Static sheet_56
+  - first:
+      213: -1103110280559327729
+    second: Static sheet_57
+  - first:
+      213: 3463873541549177807
+    second: Static sheet_58
+  - first:
+      213: -987057787902979505
+    second: Static sheet_59
+  - first:
+      213: -6954847063246720157
+    second: Static sheet_60
+  - first:
+      213: -5389153177855309397
+    second: Static sheet_61
+  - first:
+      213: -485727282435544763
+    second: Static sheet_62
+  - first:
+      213: 5893420298241882979
+    second: Static sheet_63
+  - first:
+      213: 4056955504831958294
+    second: Static sheet_64
+  - first:
+      213: 5964901179970793057
+    second: Static sheet_65
+  - first:
+      213: 4410865853146460761
+    second: Static sheet_66
+  - first:
+      213: 1467354117429553452
+    second: Static sheet_67
+  - first:
+      213: -3858391859619719237
+    second: Static sheet_68
+  - first:
+      213: 3052380506027108665
+    second: Static sheet_69
+  - first:
+      213: 674172033443061071
+    second: Static sheet_70
+  - first:
+      213: 8449163997154784173
+    second: Static sheet_71
+  - first:
+      213: 5513889831866749244
+    second: Static sheet_72
+  - first:
+      213: 3740480887465334311
+    second: Static sheet_73
+  - first:
+      213: -6323939801697013786
+    second: Static sheet_74
+  - first:
+      213: 7679054183512066664
+    second: Static sheet_75
+  - first:
+      213: 4538906956109666395
+    second: Static sheet_76
+  - first:
+      213: 6791379027267217830
+    second: Static sheet_77
+  - first:
+      213: -1797356730187429032
+    second: Static sheet_78
+  - first:
+      213: -7933438610434092230
+    second: Static sheet_79
+  - first:
+      213: 1708763813595616615
+    second: Static sheet_80
+  - first:
+      213: 3164910240949835683
+    second: Static sheet_81
+  - first:
+      213: -3453849132976804064
+    second: Static sheet_82
+  - first:
+      213: -4804941317985366537
+    second: Static sheet_83
+  - first:
+      213: -6045582642949746076
+    second: Static sheet_84
+  - first:
+      213: -8490609150338806993
+    second: Static sheet_85
+  - first:
+      213: -8235757077227089016
+    second: Static sheet_86
+  - first:
+      213: 4499346455603834024
+    second: Static sheet_87
+  - first:
+      213: -2833093698920965270
+    second: Static sheet_88
+  - first:
+      213: -946495821014763063
+    second: Static sheet_89
+  - first:
+      213: 4818831039388627151
+    second: Static sheet_90
+  - first:
+      213: 3596821404754620394
+    second: Static sheet_91
+  - first:
+      213: -7599203498031018539
+    second: Static sheet_92
+  - first:
+      213: -4090166578305896448
+    second: Static sheet_93
+  - first:
+      213: 7932397977277606690
+    second: Static sheet_94
+  - first:
+      213: 1504271396955880759
+    second: Static sheet_95
+  - first:
+      213: -286776774912412081
+    second: Static sheet_96
+  - first:
+      213: 4930860757147956840
+    second: Static sheet_97
+  - first:
+      213: 4439363433527335256
+    second: Static sheet_98
+  - first:
+      213: -1396967815147591303
+    second: Static sheet_99
+  - first:
+      213: 7221855420090514306
+    second: Static sheet_100
+  - first:
+      213: -6870031932837079107
+    second: Static sheet_101
+  - first:
+      213: -7655326647972332045
+    second: Static sheet_102
+  - first:
+      213: 2214681613445752492
+    second: Static sheet_103
+  - first:
+      213: -2567992823900355004
+    second: Static sheet_104
+  - first:
+      213: 2699778856777826048
+    second: Static sheet_105
+  - first:
+      213: 5025951036121466593
+    second: Static sheet_106
+  - first:
+      213: 235736929264479345
+    second: Static sheet_107
+  - first:
+      213: 2513610383201436086
+    second: Static sheet_108
+  - first:
+      213: -7085388504572831361
+    second: Static sheet_109
+  - first:
+      213: -9130809031068910558
+    second: Static sheet_110
+  - first:
+      213: -5606437279407886925
+    second: Static sheet_111
+  - first:
+      213: -3494842225164569217
+    second: Static sheet_112
+  - first:
+      213: 1549607574109152010
+    second: Static sheet_113
+  - first:
+      213: -3876321703447810498
+    second: Static sheet_114
+  - first:
+      213: -2701806963156792117
+    second: Static sheet_115
+  - first:
+      213: 1254140072778443647
+    second: Static sheet_116
+  - first:
+      213: -4104868763198661646
+    second: Static sheet_117
+  - first:
+      213: -1507836773309145758
+    second: Static sheet_118
+  - first:
+      213: 5033442231269549119
+    second: Static sheet_119
+  - first:
+      213: 5349715025332353583
+    second: Static sheet_120
+  - first:
+      213: -280903765927177750
+    second: Static sheet_121
+  - first:
+      213: -930340698290836066
+    second: Static sheet_122
+  - first:
+      213: 2947230128647497737
+    second: Static sheet_123
+  - first:
+      213: 8329921212100890984
+    second: Static sheet_124
+  - first:
+      213: 248060822160427715
+    second: Static sheet_125
+  - first:
+      213: 4240601407343748202
+    second: Static sheet_126
+  - first:
+      213: -6188038935841728872
+    second: Static sheet_127
+  - first:
+      213: 6787182636669968378
+    second: Static sheet_128
+  - first:
+      213: -6467111858755426706
+    second: Static sheet_129
+  - first:
+      213: -4181909725181738643
+    second: Static sheet_130
+  - first:
+      213: 1884796147661980565
+    second: Static sheet_131
+  - first:
+      213: -1834536501418218227
+    second: Static sheet_132
+  - first:
+      213: 7894886244890947256
+    second: Static sheet_133
+  - first:
+      213: -1653535293060759827
+    second: Static sheet_134
+  - first:
+      213: -5785770235242117771
+    second: Static sheet_135
+  - first:
+      213: -2821005902827029048
+    second: Static sheet_136
+  - first:
+      213: -5269753706458433940
+    second: Static sheet_137
+  - first:
+      213: 7157655923636960573
+    second: Static sheet_138
+  - first:
+      213: 4792731596571144858
+    second: Static sheet_139
+  - first:
+      213: 8171774901765531455
+    second: Static sheet_140
+  - first:
+      213: 2438423847570410959
+    second: Static sheet_141
+  - first:
+      213: 4608705845357923595
+    second: Static sheet_142
+  - first:
+      213: -7714573472505784719
+    second: Static sheet_143
+  - first:
+      213: -3288728922661019833
+    second: Static sheet_144
+  - first:
+      213: -3578898517136188099
+    second: Static sheet_145
+  - first:
+      213: -6183756488539839085
+    second: Static sheet_146
+  - first:
+      213: 5590643318558488933
+    second: Static sheet_147
+  - first:
+      213: -3611223720102716492
+    second: Static sheet_148
+  - first:
+      213: 8895549250067520996
+    second: Static sheet_149
+  - first:
+      213: 7018006850414943575
+    second: Static sheet_150
+  - first:
+      213: -4864478846371028687
+    second: Static sheet_151
+  - first:
+      213: 1130273426665121412
+    second: Static sheet_152
+  - first:
+      213: -7699185643296762071
+    second: Static sheet_153
+  - first:
+      213: -5021320038959785992
+    second: Static sheet_154
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 2042, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Static1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 382
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca26ae13bc4f0d40800000000000000
+      internalID: 5552741197768174274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Static2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 407
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14803e39625f02080800000000000000
+      internalID: -9214095291561342911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Static3
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 0
+        width: 387
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d040d4125678ee0800000000000000
+      internalID: -1258926377126326980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Static4
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8680378146fd42f50800000000000000
+      internalID: 6855850153764653160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Static5
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 0
+        width: 389
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1bfe27867191b30800000000000000
+      internalID: 4258460660027863484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

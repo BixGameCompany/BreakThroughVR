@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Door
+  - setupCamera
+  - Camera
+  - Monitor
+  - CViewPort
+  - EMP
+  - Obstacle
+  - Watch
+  - setupTurret
+  - bullet
+  - Turret
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Grab
+  - Ground
+  - Player
+  - Hacking
+  - HeadPresense
+  - IgnoreCollison1
+  - IgnoreCollison2
+  - Hackable
+  - MiniMap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
