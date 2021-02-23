@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public Animator VRHud;
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     {
         if (!GameOver && health <= 0)
         {
-            GameOverDeath();
+            GameOverVRDeath();
             GameOver = true;
         }
     }
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         VRHud.Play("HUD.BlackScreenClear", 0, 0.25f);
 
     }
-    void GameOverDeath()
+    void GameOverVRDeath()
     {
         //Shows Game over screen for player and deactivates movement
             VRPlayer.GetComponent<ContinuousMovement>().enabled = false;
@@ -41,7 +41,17 @@ public class GameManager : MonoBehaviour
 
         //Shows GameOverWin screen for PC
         GameOverScreenPC.GetComponent<Animator>().Play("Screen.GameOverPCWin",0,0.25f);
-
         
+    }
+    public void GameOverVRWin()
+    {
+        //Shows Game over screen for player and deactivates movement
+        VRPlayer.GetComponent<ContinuousMovement>().enabled = false;
+        VRHud.Play("HUD.BlackScreenDim", 0, 0.25f);
+        VRHud.transform.GetChild(0).GetComponent<Text>().color = Color.green;
+        VRHud.transform.GetChild(1).GetComponent<Text>().color = Color.green;
+
+        //Shows Gameover Lose for the pc player
+        GameOverScreenPC.GetComponent<Animator>().Play("Screen.GameOverPCLose", 0, 0.25f);
     }
 }

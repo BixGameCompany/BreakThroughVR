@@ -14,6 +14,7 @@ public class HandCollision : MonoBehaviour
         
 
     }
+    
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == 9)

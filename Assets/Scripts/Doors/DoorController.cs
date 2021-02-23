@@ -27,6 +27,7 @@ public class DoorController : MonoBehaviour
         anim = GetComponent<Animator>();
         Icon = transform.GetChild(2).gameObject;
     }
+    
     private void Update()
     {
         if (!isOn && hasIcon)
