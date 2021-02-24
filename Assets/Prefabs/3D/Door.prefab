@@ -105,7 +105,6 @@ GameObject:
   - component: {fileID: 8797320111405149332}
   - component: {fileID: 6769661541884418142}
   - component: {fileID: 5346686383074698739}
-  - component: {fileID: 5346686383074698738}
   m_Layer: 0
   m_Name: LeftDoor
   m_TagString: Untagged
@@ -188,27 +187,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.020000005, z: 0.047655664}
   m_Center: {x: 0, y: 0, z: 0.02382783}
---- !u!114 &5346686383074698738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5112244451540695435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1ef2246c236414eb2e9810a75cb3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorSpeed: 0
-  open: 0
-  inMotion: 0
-  DoorOpen: {fileID: 0}
-  DoorClose: {fileID: 0}
-  isHackable: 1
-  Icon: {fileID: 0}
-  openColor: {r: 0, g: 0, b: 0, a: 0}
-  closeColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5112244452012664852
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +690,8 @@ MonoBehaviour:
   inMotion: 0
   DoorOpen: {fileID: 7400000, guid: d180e2aeb2a9ab549bf0cb730387053e, type: 2}
   DoorClose: {fileID: 7400000, guid: 2b5b1c39b4f4d9448bfe45830f874cba, type: 2}
-  isHackable: 1
+  isOn: 1
+  hasIcon: 1
   Icon: {fileID: 0}
   openColor: {r: 0.014842621, g: 0.5566038, b: 0, a: 1}
   closeColor: {r: 0.5660378, g: 0, b: 0, a: 1}

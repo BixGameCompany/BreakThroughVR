@@ -25,13 +25,17 @@ public class DoorController : MonoBehaviour
     private void Start()
     {//Gets the animator
         anim = GetComponent<Animator>();
-        Icon = transform.GetChild(2).gameObject;
+        if (hasIcon)
+        {
+            Icon = transform.GetChild(2).gameObject;
+        }
     }
     
     private void Update()
     {
         if (!isOn && hasIcon)
         {
+            
             transform.GetChild(0).GetChild(0).GetComponent<TextMeshPro>().color = Color.red;
             transform.GetChild(1).GetChild(0).GetComponent<TextMeshPro>().color = Color.red;
         }

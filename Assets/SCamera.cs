@@ -87,14 +87,14 @@ public class SCamera : MonoBehaviour
                     {
                         transform.Rotate(-Vector3.up * speed, Space.World);
                         transform.rotation = Quaternion.Euler(transform.eulerAngles.x, Mathf.Clamp(transform.eulerAngles.y, MaxLeft, MaxRight), transform.eulerAngles.z);
-                        Debug.Log(transform.eulerAngles.y);
+                        //Debug.Log(transform.eulerAngles.y);
                     }
                     if (Input.GetKey(KeyCode.D))
                     {
                         
                         transform.Rotate(Vector3.up * speed, Space.World);
                         transform.rotation = Quaternion.Euler(transform.eulerAngles.x, Mathf.Clamp(transform.eulerAngles.y, MaxLeft, MaxRight), transform.eulerAngles.z);
-                        Debug.Log(transform.eulerAngles.y);
+                        //Debug.Log(transform.eulerAngles.y);
                     }
                 }
             }
