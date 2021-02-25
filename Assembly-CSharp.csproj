@@ -90,6 +90,7 @@
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderVertex.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\EasyColliderWindow.cs" />
     <Compile Include="Assets\EasyColliderEditor\Scripts\Shader\EasyColliderCompute.cs" />
+    <Compile Include="Assets\ElevatorButtonScript.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\HackObstSpawner.cs" />
     <Compile Include="Assets\HackUser.cs" />
