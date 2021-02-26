@@ -28,10 +28,10 @@ public class HackObstSpawner : MonoBehaviour
         {
             Generated = false;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            generateObstacles();
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+       // {
+       //     generateObstacles();
+       // }
     }
 
     public void generateRandomSpawn()
@@ -73,10 +73,13 @@ public class HackObstSpawner : MonoBehaviour
     {
         if (Obstacles.Count > 0)
         {
+           
             for (int i = 0; i < Obstacles.Count; i++)
             {
                 Destroy(Obstacles[i]);
+                Generated = false;
             }
+            
         }
     }
 }

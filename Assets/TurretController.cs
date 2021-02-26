@@ -189,6 +189,16 @@ public class TurretController : MonoBehaviour
 
                 }
             }
+            GameObject[] Cameras = GameObject.FindGameObjectsWithTag("Camera");
+            for (int i = 0; i < Cameras.Length; i++)
+            {
+                GameObject CurrentCamera = Cameras[i];
+                if (CurrentCamera != this.gameObject)
+                {
+                    CurrentCamera.GetComponent<SCamera>().Active = false;
+                    CurrentCamera.transform.GetChild(2).gameObject.SetActive(false);
+                }
+            }
             Active = true;
             GameObject.FindGameObjectWithTag("CViewPort").GetComponent<RawImage>().texture = rt;
             //staticLow();

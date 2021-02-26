@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject VRPlayer;
     public GameObject GameOverScreenPC;
+    public GameObject elevatorText;
     public bool GameOver;
     private int health;
     void Start()
@@ -36,8 +37,7 @@ public class GameManager : MonoBehaviour
         //Shows Game over screen for player and deactivates movement
             VRPlayer.GetComponent<ContinuousMovement>().enabled = false;
             VRHud.Play("HUD.BlackScreenDim", 0, 0.25f);
-            VRHud.transform.GetChild(0).gameObject.SetActive(true);
-            VRHud.transform.GetChild(1).gameObject.SetActive(true);
+        //Invoke("enableHudText",1f);
 
         //Shows GameOverWin screen for PC
         GameOverScreenPC.GetComponent<Animator>().Play("Screen.GameOverPCWin",0,0.25f);
@@ -48,10 +48,17 @@ public class GameManager : MonoBehaviour
         //Shows Game over screen for player and deactivates movement
         VRPlayer.GetComponent<ContinuousMovement>().enabled = false;
         VRHud.Play("HUD.BlackScreenDim", 0, 0.25f);
-        VRHud.transform.GetChild(0).GetComponent<Text>().color = Color.green;
-        VRHud.transform.GetChild(1).GetComponent<Text>().color = Color.green;
+        //Invoke("enableHudText", 1f);
+        elevatorText.SetActive(true);
+        //VRHud.transform.GetChild(0).GetComponent<Text>().color = Color.green;
+        //VRHud.transform.GetChild(1).GetComponent<Text>().color = Color.green;
 
         //Shows Gameover Lose for the pc player
         GameOverScreenPC.GetComponent<Animator>().Play("Screen.GameOverPCLose", 0, 0.25f);
+    }
+    void enableHudText()
+    {
+        VRHud.transform.GetChild(0).gameObject.SetActive(true);
+        VRHud.transform.GetChild(1).gameObject.SetActive(true);
     }
 }

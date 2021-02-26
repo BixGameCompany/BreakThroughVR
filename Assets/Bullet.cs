@@ -2,6 +2,7 @@
 
 public class Bullet : MonoBehaviour
 {
+    public int Damage;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == 9)
@@ -10,7 +11,7 @@ public class Bullet : MonoBehaviour
         }else
         if (collision.gameObject.layer == 12)
         {
-            GameObject.Find("VR Rig").GetComponent<PlayerStats>().DamagePlayer(5);
+            GameObject.Find("VR Rig").GetComponent<PlayerStats>().DamagePlayer(10);
             Destroy(gameObject);
         }
         else

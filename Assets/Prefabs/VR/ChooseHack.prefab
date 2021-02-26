@@ -90,6 +90,8 @@ GameObject:
   - component: {fileID: 8213560220142133366}
   - component: {fileID: 8190815178655312451}
   - component: {fileID: 5873788662957713650}
+  - component: {fileID: 5556617338286360057}
+  - component: {fileID: 6997211658411081383}
   m_Layer: 5
   m_Name: ChooseHack
   m_TagString: Untagged
@@ -197,3 +199,28 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5556617338286360057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184142775298244726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a39dccf150c5f3b44ae94837b242f7f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6997211658411081383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184142775298244726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 85.66519, y: 21.375685, z: 0.47765553}
+  m_Center: {x: -0.075920105, y: 0.010012627, z: -0.09885126}

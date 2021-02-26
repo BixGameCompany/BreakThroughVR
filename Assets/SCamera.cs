@@ -132,6 +132,17 @@ public class SCamera : MonoBehaviour
                     CurrentCamera.transform.GetChild(2).gameObject.SetActive(false);
                 }
             }
+            GameObject[] Turrets = GameObject.FindGameObjectsWithTag("Turret");
+            for (int i = 0; i < Turrets.Length; i++)
+            {
+                GameObject CurrentTurret = Turrets[i];
+                if (CurrentTurret != this.gameObject)
+                {
+                    CurrentTurret.GetComponent<TurretController>().Active = false;
+                    CurrentTurret.transform.GetChild(1).GetChild(1).GetComponent<MeshRenderer>().material = CurrentTurret.GetComponent<TurretController>().InactiveMaterial;
+
+                }
+            }
             Active = true;
             GameObject.FindGameObjectWithTag("CViewPort").GetComponent<RawImage>().texture = rt;
             staticLow();

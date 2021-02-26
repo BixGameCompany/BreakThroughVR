@@ -110,6 +110,7 @@
     <Compile Include="Assets\Scripts\testBoom.cs" />
     <Compile Include="Assets\SecureBoxHandle.cs" />
     <Compile Include="Assets\Securepad.cs" />
+    <Compile Include="Assets\Sensitivity.cs" />
     <Compile Include="Assets\TurretController.cs" />
     <Compile Include="Assets\TurretManager.cs" />
     <Compile Include="Assets\VRBasicBody.cs" />

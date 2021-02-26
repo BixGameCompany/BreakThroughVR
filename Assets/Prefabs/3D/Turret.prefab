@@ -141,7 +141,7 @@ MonoBehaviour:
   rt: {fileID: 0}
   ActiveMaterial: {fileID: 2100000, guid: 573fcb11d11fb844baefd3288c68d61a, type: 2}
   InactiveMaterial: {fileID: 2100000, guid: 4f02120ef315c5741832fc95e5bca5e1, type: 2}
-  bulletSpeed: 100
+  bulletSpeed: 150
   timeBetweenShots: 0.2
   bullet: {fileID: 7273205780338295853, guid: 33d518da5556ca9479c221a7ffc1d282, type: 3}
   muzzleFlash: {fileID: 3829022845888845873, guid: 39cf6c9bf91dcb94386563696aed536f,
