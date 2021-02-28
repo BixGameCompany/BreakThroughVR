@@ -98,6 +98,7 @@
     <Compile Include="Assets\HandCollision.cs" />
     <Compile Include="Assets\HandUIInteractor.cs" />
     <Compile Include="Assets\MiniMap.cs" />
+    <Compile Include="Assets\ObjectiveManager.cs" />
     <Compile Include="Assets\PlayerStats.cs" />
     <Compile Include="Assets\SCamera.cs" />
     <Compile Include="Assets\Scripts\Doors\Door.cs" />

@@ -37,12 +37,10 @@ public class TurretController : MonoBehaviour
 
     public bool flipX;
     public bool flipY;
-    public int XrotMin;
-    public int XrotMax;
-    public int YrotMin;
-    public int YrotMax;
-    public int Xrot;
-    public int Yrot;
+    public int MinHor;
+    public int MaxHor;
+    public int MinVer;
+    public int MaxVer;
 
 
 
@@ -91,40 +89,43 @@ public class TurretController : MonoBehaviour
                 {
                     staticLow();
                     transform.GetChild(1).GetChild(1).GetComponent<MeshRenderer>().material = ActiveMaterial;
-                    
-                    
-                    if (Input.GetKey(KeyCode.LeftArrow) && Xrot > XrotMin)
-                    {
-                        Xrot -= 1;
-                        if (flipX)
-                        {
-                            transform.Rotate(transform.up * speed, Space.World);
-                        }
-                        else
-                        {
-                            transform.Rotate(-transform.up * speed, Space.World);
-                        }
-                        
-                        transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0);
-                    }
-                    if (Input.GetKey(KeyCode.RightArrow) && Xrot < XrotMax)
-                    {
-                        Xrot += 1;
-                        if (flipX)
-                        {
-                            transform.Rotate(-transform.up * speed, Space.World);
-                        }
-                        else
-                        {
-                            transform.Rotate(transform.up * speed, Space.World);
-                        }
 
-                        
-                        transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0);
-                    }
-                    if (Input.GetKey(KeyCode.DownArrow) && Yrot > YrotMin)
+                    transform.rotation = Quaternion.identity;
+                    if (Input.GetKey(KeyCode.LeftArrow))
                     {
-                        Yrot -= 1;
+                        
+                        if (flipX)
+                        {
+                            transform.Rotate(transform.up * speed, Space.World);
+                        }
+                        else
+                        {
+                            transform.Rotate(-transform.up * speed, Space.World);
+                        }
+                        Debug.Log(transform.rotation.y);
+
+                        //transform.localRotation = Quaternion.Euler(transform.eulerAngles.x, Mathf.Clamp(transform.up.y, MinHor, MaxHor), 0);
+
+                    }
+                    if (Input.GetKey(KeyCode.RightArrow))
+                    {
+                        
+                        if (flipX)
+                        {
+                            transform.Rotate(-transform.up * speed, Space.World);
+                        }
+                        else
+                        {
+                            transform.Rotate(transform.up * speed, Space.World);
+                        }
+                        Debug.Log(transform.localEulerAngles);
+
+                        //transform.localRotation = Quaternion.Euler(transform.eulerAngles.x, Mathf.Clamp(transform.localEulerAngles.y, MinHor, MaxHor), 0);
+
+                    }
+                    if (Input.GetKey(KeyCode.DownArrow))
+                    {
+                        
                         if (flipY)
                         {
                             transform.Rotate(-transform.right * speed, Space.World);
@@ -133,12 +134,13 @@ public class TurretController : MonoBehaviour
                         {
                             transform.Rotate(transform.right * speed, Space.World);
                         }
-                        
-                        transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0);
+                        //Debug.Log(transform.eulerAngles.x);
+                        //transform.rotation = Quaternion.Euler(Mathf.Clamp(transform.eulerAngles.x, MinVer, MaxVer),transform.eulerAngles.y , 0);
+
                     }
-                    if (Input.GetKey(KeyCode.UpArrow) && Yrot < YrotMax)
+                    if (Input.GetKey(KeyCode.UpArrow))
                     {
-                        Yrot += 1;
+                        
                         if (flipY)
                         {
                             transform.Rotate(transform.right * speed, Space.World);
@@ -147,8 +149,8 @@ public class TurretController : MonoBehaviour
                         {
                             transform.Rotate(-transform.right * speed, Space.World);
                         }
-                        
-                        transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0);
+                        //Debug.Log(transform.eulerAngles.x);
+                        //transform.rotation = Quaternion.Euler(Mathf.Clamp(transform.eulerAngles.x, MinVer, MaxVer), transform.eulerAngles.y, 0);
                     }
                     if (Input.GetKey(KeyCode.Space))
                     {

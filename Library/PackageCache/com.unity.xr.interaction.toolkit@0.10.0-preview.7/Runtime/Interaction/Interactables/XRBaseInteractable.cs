@@ -356,8 +356,8 @@ namespace UnityEngine.XR.Interaction.Toolkit
             var minDistanceSqr = float.MaxValue;
             foreach (var col in m_Colliders)
             {
-                var offset = (interactor.attachTransform.position - col.transform.position);
-                minDistanceSqr = Mathf.Min(offset.sqrMagnitude, minDistanceSqr);
+                //var offset = (interactor.attachTransform.position - col.transform.position);
+              //  minDistanceSqr = Mathf.Min(offset.sqrMagnitude, minDistanceSqr);
             }
             return minDistanceSqr;
         }
